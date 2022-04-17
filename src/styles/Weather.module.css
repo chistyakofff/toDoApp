@@ -1,0 +1,32 @@
+@font-face {
+	font-family: Californian FB;
+	src: url('../fonts/CALIFR.woff2');
+}
+
+.weatherContainer {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;
+	margin: 100px;
+	background-color: chocolate;
+	opacity: 0.5;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.weatherContainer > p {
+	font-family: Californian FB;
+	height: 80px;
+	display: inline-block;
+	font-size: 24pt;
+	color: #06113c;
+}
+
+.weatherContainer:hover {
+	opacity: 1;
+	transition: opacity 0.4s ease;
+}
